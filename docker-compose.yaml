@@ -1,0 +1,19 @@
+version: '3.5'
+services:
+######################################################
+# AI engine workspace in Salesforecast PJ 
+######################################################
+
+  salesforecast:
+    build: .
+    # restart: always
+    container_name: workspace-alllllll
+    # volumes:
+    #   - ./:/home/
+    # ports:
+    #   - 8080:8080
+    # healthcheck:
+    #   test: [ "CMD", "nc", "-z", "airflow", "8080" ]
+    #   timeout: 45s
+    #   interval: 10s
+    #   retries: 10
